@@ -1,0 +1,52 @@
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm day3_tb.A day3_tb.AND_Y day3_tb.B day3_tb.D0 day3_tb.D1 day3_tb.D2 day3_tb.D3 day3_tb.E0 day3_tb.E1 day3_tb.E2 day3_tb.E3 day3_tb.EN day3_tb.ENABLE_Y day3_tb.NOT_A day3_tb.R0 day3_tb.R1 day3_tb.R2 day3_tb.R3 day3_tb.T0 day3_tb.T1 day3_tb.T2 day3_tb.T3
+Created probe 1
+ncsim> run
+=================================================
+       DAY 3 : 2-to-4 DECODER VERIFICATION
+=================================================
+
+---- 1. BASIC GATE VERIFICATION ----
+GATE TEST 00 : PASS
+GATE TEST 01 : PASS
+GATE TEST 10 : PASS
+GATE TEST 11 : PASS
+
+---- 2. 2-to-4 DECODER ----
+DECODER 00 : PASS
+DECODER 01 : PASS
+DECODER 10 : PASS
+DECODER 11 : PASS
+
+---- 3. ENABLE VERIFICATION ----
+ENABLE OFF : PASS
+ENABLE ON : PASS
+
+---- 4. DECODER WITH ENABLE ----
+ENABLE DECODER OFF : PASS
+ENABLE DECODER 00 : PASS
+ENABLE DECODER 01 : PASS
+ENABLE DECODER 10 : PASS
+ENABLE DECODER 11 : PASS
+
+---- 5. GATE-LEVEL VS RTL ----
+RTL/GATE 00 : PASS
+RTL/GATE 01 : PASS
+RTL/GATE 10 : PASS
+RTL/GATE 11 : PASS
+
+---- 6. TOP MODULE VERIFICATION ----
+TOP 00 : PASS
+TOP 01 : PASS
+TOP 10 : PASS
+TOP 11 : PASS
+TOP ENABLE OFF : PASS
+
+=================================================
+       DAY 3 VERIFICATION COMPLETED
+=================================================
+Simulation complete via $finish(1) at time 240 NS + 0
+./day3_tb.v:514         $finish;
+ncsim> 
