@@ -1,7 +1,7 @@
 # Day 3 — 2-to-4 Decoder with Enable
 
 <p align="center">
-  <b>Digital VLSI • Verilog RTL • Functional Verification • Cadence Genus</b>
+  <b>2-to-4 Decoder with Enable RTL Design & Verification using Verilog HDL and Cadence Genus.</b>
 </p>
 
 <p align="center">
