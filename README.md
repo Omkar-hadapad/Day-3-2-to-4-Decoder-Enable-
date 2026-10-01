@@ -1484,55 +1484,6 @@ Day-3/
     └── project_report.pdf
 ```
 
-> Rename `day3_design.v` to the exact RTL filename used in the actual repository if different. Do not create a filename that does not exist.
-
----
-
-## 33. GitHub Commit Sequence
-
-```text
-1. Add Day 3 decoder RTL
-2. Add Day 3 verification testbench
-3. Add NC-Sim simulation output
-4. Add SHM waveform database
-5. Add verification evidence
-6. Add Genus synthesis reports
-7. Add area and hierarchy analysis
-8. Add timing and power reports
-9. Add Day 3 documentation
-10. Update Day 3 README
-```
-
-### Suggested Repository Description
-
-```text
-2-to-4 Decoder with Enable RTL Design & Verification using Verilog HDL and Cadence Genus.
-```
-
-### Suggested GitHub Topics
-
-```text
-digital-vlsi
-verilog
-rtl-design
-decoder
-2-to-4-decoder
-combinational-logic
-synthesizable-verilog
-functional-verification
-gate-level-simulation
-cadence-genus
-nc-sim
-logic-synthesis
-timing-analysis
-power-analysis
-asic
-fpga
-digital-design
-vlsi
-```
-
----
 
 ## 34. Project Status
 
